@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="botstrap font" />
+    <meta name="title" content="botstrap font" />
+    <meta name="description" content="its a tutorial for botstrap font" />
+    <meta name="keywords" content="bootstrap,font,website,tutorial" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="author" content="RAHIM MIAH" />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>BOOTSTRAP</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" method="" class="row g-3 needs-validation" novalidate>
+        <!-- name section -->
+        <div class="col-md-6">
+          <label for="f-name" class="form-label">First name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="f-name"
+            name="f-name"
+            placeholder="Rahim"
+            required
+          />
+          <div class="valid-feedback">Looks good!</div>
+        </div>
+        <div class="col-md-6">
+          <label for="l-name" class="form-label">Last name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="l-name"
+            name="l-name"
+            placeholder="Miah"
+            required
+          />
+          <div class="valid-feedback">Looks good</div>
+        </div>
+        <!-- email address line -->
+        <div class="col-md-12">
+          <label for="email" class="form-label">Email Address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email "
+            placeholder="email00@gmail.com"
+            required
+          />
+          <div class="invalid-feedback">
+            Please provide a valid email address
+          </div>
+        </div>
+        <!-- city section -->
+        <div class="col-md-6">
+          <label for="city" class="form-label">City</label>
+          <input
+            type="text"
+            class="form-control"
+            id="city"
+            name="city"
+            placeholder="Chandpur"
+            required
+          />
+          <div class="invalid-feedback">Please provide a valid city</div>
+        </div>
+        <!-- state secton -->
+        <div class="col-md-3">
+          <label for="state" class="form-label">State</label>
+          <select
+            class="form-select"
+            id="state"
+            name="state"
+            aria-placeholder="Matlab North"
+            required
+          >
+            <option selected disabled value="">Choose...</option>
+            <option>...</option>
+          </select>
+          <div class="invalid-feedback">Please select a valid state.</div>
+        </div>
+        <!-- zip secton -->
+
+        <div class="col-md-3">
+          <label for="zip" class="form-label">Zip</label>
+          <input
+            type="text"
+            class="form-control"
+            id="zip"
+            name="zip"
+            placeholder="3643"
+            required
+          />
+          <div class="invalid-feedback">Please provide a valid zip.</div>
+        </div>
+
+        <div class="col-12">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="check"
+              name="check"
+              required
+            />
+            <label class="form-check-label" for="check">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+    </div>
+    <!-- JS LINK -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
